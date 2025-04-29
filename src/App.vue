@@ -1,17 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- Navbar'ı burada ekliyoruz -->
+    <Navbar />
+    <!-- Vue Router ile sayfalar arasında geçiş yapmak için router-view ekliyoruz -->
+    <router-view />  <!-- Sayfa içeriği burada dinamik olarak yüklenecek -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// Navbar bileşenini içe aktarıyoruz
+import Navbar from './components/Navbar.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,  // Navbar bileşenini burada tanımlıyoruz
   }
-}
+};
 </script>
 
 <style>
