@@ -26,7 +26,8 @@ Deneysel bir çalışmadır ve ufkumu genişletmek, Vue ile neler yapılabilece�
 1. Bu repoyu klonlayın:
    ```bash
    git clone https://github.com/Akinincecik/Vue-first-app.git
-   -------------------------------------------------------------------------------------------
+   
+-------------------------------------------------------------------------------------------
 
 # Vue First App
 
